@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;600&display=swap');
+
+.signup-form {
+  width: 800px; /* Increased width */
+  margin: 50px auto;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Jura', sans-serif; /* Use Jura font */
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+  font-weight: 600; /* Bold */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Increased space between inputs */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px; /* Increased space between label and input */
+  color: #555;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px; /* Increased padding */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Jura', sans-serif; /* Use Jura font */
+}
+
+.signup-button {
+  width: 100%;
+  padding: 12px; /* Increased padding */
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Jura', sans-serif; /* Use Jura font */
+}
+
+.signup-button:hover {
+  background-color: #218838;
+}
+
+.signup-button:active {
+  background-color: #1e7e34;
+}
+
+.signup-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5);
+}
